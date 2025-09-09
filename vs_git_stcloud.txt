@@ -1,0 +1,6 @@
+visual studio codeとgithubリポジトリーを連携してファイルをpushし、githubからstreamlit community cloudへアプリをデプロイする方法
+1. visual studio code上で、ファイル⇒フォルダを開くで、フォルダ●●を開く
+2. github上でリポジトリー▲▲を作成する
+3. githubリポジトリーとvisual studio codeのフォルダーを連携する
+ ・vscode上で表示⇒ターミナル⇒command prompt
+ ・command prompt上で git init ⇒ git commit -m "コメント" 　　
