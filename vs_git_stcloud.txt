@@ -3,4 +3,16 @@ visual studio codeとgithubリポジトリーを連携してファイルをpush�
 2. github上でリポジトリー▲▲を作成する
 3. githubリポジトリーとvisual studio codeのフォルダーを連携する
  ・vscode上で表示⇒ターミナル⇒command prompt
- ・command prompt上で git init ⇒ git commit -m "コメント" 　　
+ ・command prompt上で git config --global user.name "(ユーザー名)"
+ ・command prompt上で git config --global user.email "（メールアドレス）"
+ ・command prompt上で git config -l ⇒user.nameユーザー名とuser.emailメールアドレスが正しいか確認。
+ ・command prompt上で git init 
+ ・command prompt上で git branch -M main 
+ ・command prompt上で git remote add origin リポジトリのURL
+ ・command prompt上で git remote -v
+ ・command prompt上で git add . 　 　　
+ ・command prompt上で git commit -m "コメント" 
+ ・command prompt上で git fetch origin main
+ ・command prompt上で git pull --rebase origin main
+ ・command prompt上で git push -u origin main
+ ・2回目以降は、ファイル変更　⇒  git add .　⇒　git commit -m "コメント"　⇒　git push -u origin main
